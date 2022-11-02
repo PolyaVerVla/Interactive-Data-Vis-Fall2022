@@ -15,34 +15,7 @@ d3.json("../data/EnvironmentForest.json", d3.autoType)
 
 
 
-    // const selectElement = d3.select("#dropdown")
-    // selectElement
-    // .selectAll("option")
-    // .data ([
-    //  { key : "All", label : "All"}
-    //  { key : "Alabama", label : "Alabama"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-    //  { key : "All", label : "All"}
-     
+   
 
 
     // ])
