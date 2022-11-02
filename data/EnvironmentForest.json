@@ -1,0 +1,402 @@
+[
+  {
+    "RANK": 41,
+    "State": "Alabama",
+    "IndustrialToxins": 41,
+    "PollutionHealthRisk": 39,
+    "PercentForestCover": 70.57,
+    "PopDensityperMi2": 99.2
+  },
+  {
+    "RANK": 24,
+    "State": "Missouri",
+    "IndustrialToxins": 28,
+    "PollutionHealthRisk": 26,
+    "PercentForestCover": 35.16,
+    "PopDensityperMi2": 89.5
+  },
+  {
+    "RANK": 37,
+    "State": "West Virginia",
+    "IndustrialToxins": 35,
+    "PollutionHealthRisk": 40,
+    "PercentForestCover": 79.01,
+    "PopDensityperMi2": 74.6
+  },
+  {
+    "RANK": 14,
+    "State": "Minnesota",
+    "IndustrialToxins": 10,
+    "PollutionHealthRisk": 21,
+    "PercentForestCover": 34.08,
+    "PopDensityperMi2": 71.7
+  },
+  {
+    "RANK": 1,
+    "State": "Vermont",
+    "IndustrialToxins": 1,
+    "PollutionHealthRisk": 1,
+    "PercentForestCover": 77.811,
+    "PopDensityperMi2": 69.8
+  },
+  {
+    "RANK": 28,
+    "State": "Mississippi",
+    "IndustrialToxins": 38,
+    "PollutionHealthRisk": 19,
+    "PercentForestCover": 65.07,
+    "PopDensityperMi2": 63.1
+  },
+  {
+    "RANK": 21,
+    "State": "Arizona",
+    "IndustrialToxins": 27,
+    "PollutionHealthRisk": 17,
+    "PercentForestCover": 25.64,
+    "PopDensityperMi2": 63
+  },
+  {
+    "RANK": 36,
+    "State": "Arkansas",
+    "IndustrialToxins": 31,
+    "PollutionHealthRisk": 43,
+    "PercentForestCover": 56.31,
+    "PopDensityperMi2": 57.9
+  },
+  {
+    "RANK": 22,
+    "State": "Oklahoma",
+    "IndustrialToxins": 18,
+    "PollutionHealthRisk": 31,
+    "PercentForestCover": 28.8,
+    "PopDensityperMi2": 57.7
+  },
+  {
+    "RANK": 25,
+    "State": "Iowa",
+    "IndustrialToxins": 25,
+    "PollutionHealthRisk": 30,
+    "PercentForestCover": 8.43,
+    "PopDensityperMi2": 57.1
+  },
+  {
+    "RANK": 9,
+    "State": "Colorado",
+    "IndustrialToxins": 9,
+    "PollutionHealthRisk": 15,
+    "PercentForestCover": 34.42,
+    "PopDensityperMi2": 54.3
+  },
+  {
+    "RANK": 8,
+    "State": "Maine",
+    "IndustrialToxins": 12,
+    "PollutionHealthRisk": 9,
+    "PercentForestCover": 89.46,
+    "PopDensityperMi2": 44.2
+  },
+  {
+    "RANK": 44,
+    "State": "Oregon",
+    "IndustrialToxins": 6,
+    "PollutionHealthRisk": 50,
+    "PercentForestCover": 48.51,
+    "PopDensityperMi2": 44.1
+  },
+  {
+    "RANK": 46,
+    "State": "Utah",
+    "IndustrialToxins": 45,
+    "PollutionHealthRisk": 46,
+    "PercentForestCover": 34.48,
+    "PopDensityperMi2": 39.8
+  },
+  {
+    "RANK": 23,
+    "State": "Kansas",
+    "IndustrialToxins": 11,
+    "PollutionHealthRisk": 35,
+    "PercentForestCover": 4.78,
+    "PopDensityperMi2": 35.9
+  },
+  {
+    "RANK": 5,
+    "State": "Wyoming",
+    "IndustrialToxins": 5,
+    "PollutionHealthRisk": 5,
+    "PercentForestCover": 18.42,
+    "PopDensityperMi2": 5.9
+  },
+  {
+    "RANK": 3,
+    "State": "South Dakota",
+    "IndustrialToxins": 3,
+    "PollutionHealthRisk": 7,
+    "PercentForestCover": 3.93,
+    "PopDensityperMi2": 11.7
+  },
+  {
+    "RANK": 12,
+    "State": "Nebraska",
+    "IndustrialToxins": 7,
+    "PollutionHealthRisk": 18,
+    "PercentForestCover": 3.2,
+    "PopDensityperMi2": 25.5
+  },
+  {
+    "RANK": 4,
+    "State": "New Mexico",
+    "IndustrialToxins": 4,
+    "PollutionHealthRisk": 2,
+    "PercentForestCover": 31.99,
+    "PopDensityperMi2": 17.5
+  },
+  {
+    "RANK": 15,
+    "State": "Montana",
+    "IndustrialToxins": 19,
+    "PollutionHealthRisk": 14,
+    "PercentForestCover": 27.45,
+    "PopDensityperMi2": 7.5
+  },
+  {
+    "RANK": 49,
+    "State": "Nevada",
+    "IndustrialToxins": 47,
+    "PollutionHealthRisk": 47,
+    "PercentForestCover": 15.89,
+    "PopDensityperMi2": 28.3
+  },
+  {
+    "RANK": 10,
+    "State": "Idaho",
+    "IndustrialToxins": 17,
+    "PollutionHealthRisk": 6,
+    "PercentForestCover": 40.55,
+    "PopDensityperMi2": 22.3
+  },
+  {
+    "RANK": 19,
+    "State": "North Dakota",
+    "IndustrialToxins": 24,
+    "PollutionHealthRisk": 16,
+    "PercentForestCover": 1.72,
+    "PopDensityperMi2": 11.3
+  },
+  {
+    "RANK": 29,
+    "State": "Alaska",
+    "IndustrialToxins": 40,
+    "PollutionHealthRisk": 3,
+    "PercentForestCover": 35.16,
+    "PopDensityperMi2": 1.3
+  },
+  {
+    "RANK": 38,
+    "State": "New Jersey",
+    "IndustrialToxins": 43,
+    "PollutionHealthRisk": 20,
+    "PercentForestCover": 41.72,
+    "PopDensityperMi2": 1263
+  },
+  {
+    "RANK": 7,
+    "State": "Rhode Island",
+    "IndustrialToxins": 13,
+    "PollutionHealthRisk": 4,
+    "PercentForestCover": 54.38,
+    "PopDensityperMi2": 1061
+  },
+  {
+    "RANK": 17,
+    "State": "Massachusetts",
+    "IndustrialToxins": 15,
+    "PollutionHealthRisk": 22,
+    "PercentForestCover": 60.57,
+    "PopDensityperMi2": 901
+  },
+  {
+    "RANK": 30,
+    "State": "Connecticut",
+    "IndustrialToxins": 22,
+    "PollutionHealthRisk": 41,
+    "PercentForestCover": 55.24,
+    "PopDensityperMi2": 745
+  },
+  {
+    "RANK": 16,
+    "State": "Maryland",
+    "IndustrialToxins": 21,
+    "PollutionHealthRisk": 11,
+    "PercentForestCover": 39.36,
+    "PopDensityperMi2": 636
+  },
+  {
+    "RANK": 47,
+    "State": "Delaware",
+    "IndustrialToxins": 49,
+    "PollutionHealthRisk": 38,
+    "PercentForestCover": 27.26,
+    "PopDensityperMi2": 508
+  },
+  {
+    "RANK": 11,
+    "State": "New York",
+    "IndustrialToxins": 14,
+    "PollutionHealthRisk": 12,
+    "PercentForestCover": 62.88,
+    "PopDensityperMi2": 429
+  },
+  {
+    "RANK": 27,
+    "State": "Florida",
+    "IndustrialToxins": 32,
+    "PollutionHealthRisk": 23,
+    "PercentForestCover": 50.68,
+    "PopDensityperMi2": 402
+  },
+  {
+    "RANK": 39,
+    "State": "Pennsylvania",
+    "IndustrialToxins": 33,
+    "PollutionHealthRisk": 44,
+    "PercentForestCover": 58.6,
+    "PopDensityperMi2": 291
+  },
+  {
+    "RANK": 45,
+    "State": "Ohio",
+    "IndustrialToxins": 46,
+    "PollutionHealthRisk": 42,
+    "PercentForestCover": 30.92,
+    "PopDensityperMi2": 289
+  },
+  {
+    "RANK": 6,
+    "State": "California",
+    "IndustrialToxins": 8,
+    "PollutionHealthRisk": 13,
+    "PercentForestCover": 32.71,
+    "PopDensityperMi2": 254
+  },
+  {
+    "RANK": 42,
+    "State": "Illinois",
+    "IndustrialToxins": 42,
+    "PollutionHealthRisk": 36,
+    "PercentForestCover": 13.64,
+    "PopDensityperMi2": 231
+  },
+  {
+    "RANK": 13,
+    "State": "Hawaii",
+    "IndustrialToxins": 20,
+    "PollutionHealthRisk": 10,
+    "PercentForestCover": 42.53,
+    "PopDensityperMi2": 227
+  },
+  {
+    "RANK": 32,
+    "State": "Virginia",
+    "IndustrialToxins": 30,
+    "PollutionHealthRisk": 34,
+    "PercentForestCover": 62.93,
+    "PopDensityperMi2": 219
+  },
+  {
+    "RANK": 31,
+    "State": "North Carolina",
+    "IndustrialToxins": 36,
+    "PollutionHealthRisk": 27,
+    "PercentForestCover": 59.73,
+    "PopDensityperMi2": 215
+  },
+  {
+    "RANK": 48,
+    "State": "Indiana",
+    "IndustrialToxins": 50,
+    "PollutionHealthRisk": 37,
+    "PercentForestCover": 21.06,
+    "PopDensityperMi2": 189
+  },
+  {
+    "RANK": 26,
+    "State": "Georgia",
+    "IndustrialToxins": 29,
+    "PollutionHealthRisk": 28,
+    "PercentForestCover": 67.28,
+    "PopDensityperMi2": 186
+  },
+  {
+    "RANK": 34,
+    "State": "Michigan",
+    "IndustrialToxins": 39,
+    "PollutionHealthRisk": 29,
+    "PercentForestCover": 55.62,
+    "PopDensityperMi2": 178
+  },
+  {
+    "RANK": 33,
+    "State": "South Carolina",
+    "IndustrialToxins": 37,
+    "PollutionHealthRisk": 32,
+    "PercentForestCover": 68.19,
+    "PopDensityperMi2": 170
+  },
+  {
+    "RANK": 43,
+    "State": "Tennessee",
+    "IndustrialToxins": 44,
+    "PollutionHealthRisk": 45,
+    "PercentForestCover": 52.83,
+    "PopDensityperMi2": 168
+  },
+  {
+    "RANK": 2,
+    "State": "New Hampshire",
+    "IndustrialToxins": 2,
+    "PollutionHealthRisk": 8,
+    "PercentForestCover": 84.32,
+    "PopDensityperMi2": 154
+  },
+  {
+    "RANK": 18,
+    "State": "Washington",
+    "IndustrialToxins": 16,
+    "PollutionHealthRisk": 24,
+    "PercentForestCover": 52.74,
+    "PopDensityperMi2": 116
+  },
+  {
+    "RANK": 35,
+    "State": "Kentucky",
+    "IndustrialToxins": 34,
+    "PollutionHealthRisk": 33,
+    "PercentForestCover": 49.35,
+    "PopDensityperMi2": 114
+  },
+  {
+    "RANK": 40,
+    "State": "Texas",
+    "IndustrialToxins": 26,
+    "PollutionHealthRisk": 48,
+    "PercentForestCover": 37.33,
+    "PopDensityperMi2": 112
+  },
+  {
+    "RANK": 20,
+    "State": "Wisconsin",
+    "IndustrialToxins": 23,
+    "PollutionHealthRisk": 25,
+    "PercentForestCover": 48.98,
+    "PopDensityperMi2": 109
+  },
+  {
+    "RANK": 50,
+    "State": "Louisiana",
+    "IndustrialToxins": 48,
+    "PollutionHealthRisk": 49,
+    "PercentForestCover": 53.2,
+    "PopDensityperMi2": 108
+  }
+ ]
