@@ -17,3 +17,11 @@ h3 {
 p {
   font-size: 1em;
 }
+
+.fill-color {
+  fill: red;
+  width: 3px;
+  /* stroke: url(colorScale); */
+  range: var(colorScale);
+  /* stroke: green; */
+}
