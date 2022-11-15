@@ -108,9 +108,11 @@ d3.json("../data/EnvironmentForest.json", d3.autoType)
     .text("Industrial toxins (high/low)");
 
 
-    const legend1 = d3.legendColor()
+   
+   const legend1 = d3.legendColor()
     .scale(colorScale)
     .labelOffset(20)
+    .shapePadding(15)
     .orient('horizontal')
     .labelFormat(d3.format(".0f"))
     .title("Health Risk(high/low)");
