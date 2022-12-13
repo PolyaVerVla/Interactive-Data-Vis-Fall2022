@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h3>U.S. Food Imports and U.S. Immigration</h3>
+    <p>Americans are ethnically diverse and it affects the food choices that people make which shifts 
+      altogether with migration change. Historically, the U.S. has been considered one of the easiest 
+      countries to immigrate to, and according to the UN Department of Economics and Social Affairs, 
+      as of mid-2020 the United States has the highest immigrant population in the world at 50.6 million. 
+      The reasons for immigration can vary and depend on many factors such as seeking improved career 
+      opportunities, reuniting with family, better access to  healthcare or education, escape from 
+      military conflicts, etc. The data from the U.S. Department of Agriculture shows that the imports 
+      of edible products have changed in the last thirty years and the set of foods nowadays includes 
+      more tropical products, spices, and imported gourmet products than before. Also, the USA imports 
+      some products throughout the whole year, such as cocoa and coffee. Some imported products go to 
+      agricultural-processing industries based in the United States for further export to third countries. 
+      I wanted to see if the trade had any correlation with immigration between 2017 and 2020. 
+      In order to do that, I will select the 6 countries with the highest import values and 
+      the 6 countries with the highest number of immigrants during that time period and visualize 
+      these relationships.   
+    </p>
+   
+   <div dashboard>
+    <div id="container" class="container" ></div>
+
+   <!-- <div id="countainer" class="countainer"></div> -->
+
+   </div>
+   <!-- <h4>Scatter plot</h4>
+   <h1>
+    <font size="5" face="arial" color="#FF2626">G</font>
+   <font size="5" face="arial" color="#252A34">e</font>
+   <font size="5" face="arial" color="#753422">e</font>
+   <font size="5" face="arial" color="#FFD523">k</font>
+   <font size="5" face="arial" color="#71EFA3">s</font>
+   <font size="5" face="arial" color="#0F52BA">for</font>
+   <font size="5" face="arial" color="#66CC66">G</font>
+   <font size="5" face="arial" color="#FF9966">e</font>
+   <font size="5" face="arial" color="#FFCCCC">e</font>
+    <font color="#00C1D4">k</font>
+   <font color="#EFE3D0">s</font> -->
+</h1>
+    <label for="dropdown">Year Selection</label>
+    <select id="dropdown" name="dropdown">
+      <option>2017</option>
+      <option>2018</option>
+      <option>2019</option>
+      <option>2020</option>
+      <option>All</option>
+    </select>
+    <div id="countainer2" class="container2"></div>
+    <p>There are two countries, the Philippines and Mexico, whose  high food import value correlates with the high  number of 
+      immigrants. Three countries France, Italy and Singapore which have a low food import value correlates with low numbers of 
+      immigrants. Canada has one of the highest food import values but a low number of immigrants; and China, India and 
+      the Dominican Republic have a low food import value but high numbers of immigrants. This tendency almost hasn't changed between 
+      2017 and 2020. However there is a significant drop in the number of immigrants in 2020 from all countries due to the pandemic, 
+      while the food import value from all the countries almost hasn't changed since 2019. 
+
+    </p>
+
+  
+  
+  <!-- <h2>We won't include Cuba, since the USA and Cuba don't have any trade.</h2> -->
+    <script src="../lib/d3.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+     </body>
+</html>
