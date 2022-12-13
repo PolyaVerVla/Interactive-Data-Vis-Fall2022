@@ -1,0 +1,25 @@
+Country,RowNum,Year,Num
+Mexico,1,2017,170581
+Mexico,2,2018,161858
+Mexico,3,2019,156052
+Mexico,4,2020,100325
+China,5,2017,71565
+China,6,2018,65214
+China,7,2019,62248
+China,8,2020,41483
+India,9,2017,60394
+India,10,2018,59821
+India,11,2019,54495
+India,12,2020,46363
+Philippines,13,2017,49147
+Philippines,14,2018,47258
+Philippines,15,2019,45920
+Philippines,16,2020,25491
+Dominican Republic,17,2017,58520
+Dominican Republic,18,2018,57413
+Dominican Republic,19,2019,49911
+Dominican Republic,20,2020,30005
+Cuba,21,2017,65028
+Cuba,22,2018,76486
+Cuba,23,2019,41641
+Cuba,24,2020,16367

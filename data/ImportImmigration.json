@@ -1,0 +1,254 @@
+[
+ {
+   "Country": "Canada",
+   "RowNum": 1,
+   "Year": "2017",
+   "FoodValue": 42978.9,
+   "Num": 11484
+ },
+ {
+   "Country": "Canada",
+   "RowNum": 2,
+   "Year": "2018",
+   "FoodValue": 44233,
+   "Num": 9898
+ },
+ {
+   "Country": "Canada",
+   "RowNum": 3,
+   "Year": "2019",
+   "FoodValue": 45250.3,
+   "Num": 11388
+ },
+ {
+   "Country": "Canada",
+   "RowNum": 4,
+   "Year": "2020",
+   "FoodValue": 45772.1,
+   "Num": 9526
+ },
+ {
+   "Country": "Italy",
+   "RowNum": 5,
+   "Year": "2017",
+   "FoodValue": 8573.7,
+   "Num": 3655
+ },
+ {
+   "Country": "Italy",
+   "RowNum": 6,
+   "Year": "2018",
+   "FoodValue": 9135.4,
+   "Num": 3329
+ },
+ {
+   "Country": "Italy",
+   "RowNum": 7,
+   "Year": "2019",
+   "FoodValue": 9331.8,
+   "Num": 3822
+ },
+ {
+   "Country": "Italy",
+   "RowNum": 8,
+   "Year": "2020",
+   "FoodValue": 9897.7,
+   "Num": 3184
+ },
+ {
+   "Country": "Mexico",
+   "RowNum": 9,
+   "Year": "2017",
+   "FoodValue": 49391.9,
+   "Num": 170581
+ },
+ {
+   "Country": "Mexico",
+   "RowNum": 10,
+   "Year": "2018",
+   "FoodValue": 52245.7,
+   "Num": 161858
+ },
+ {
+   "Country": "Mexico",
+   "RowNum": 11,
+   "Year": "2019",
+   "FoodValue": 57345.5,
+   "Num": 156052
+ },
+ {
+   "Country": "Mexico",
+   "RowNum": 12,
+   "Year": "2020",
+   "FoodValue": 61369.3,
+   "Num": 100325
+ },
+ {
+   "Country": "Singapore",
+   "RowNum": 13,
+   "Year": "2017",
+   "FoodValue": 6.1,
+   "Num": 818
+ },
+ {
+   "Country": "Singapore",
+   "RowNum": 14,
+   "Year": "2018",
+   "FoodValue": 2610.2,
+   "Num": 801
+ },
+ {
+   "Country": "Singapore",
+   "RowNum": 15,
+   "Year": "2019",
+   "FoodValue": 2973.4,
+   "Num": 818
+ },
+ {
+   "Country": "Singapore",
+   "RowNum": 16,
+   "Year": "2020",
+   "FoodValue": 3200.2,
+   "Num": 807
+ },
+ {
+   "Country": "China",
+   "RowNum": 17,
+   "Year": "2017",
+   "FoodValue": 8178.6,
+   "Num": 71565
+ },
+ {
+   "Country": "China",
+   "RowNum": 18,
+   "Year": "2018",
+   "FoodValue": 8399.4,
+   "Num": 65214
+ },
+ {
+   "Country": "China",
+   "RowNum": 19,
+   "Year": "2019",
+   "FoodValue": 9558.5,
+   "Num": 62248
+ },
+ {
+   "Country": "China",
+   "RowNum": 20,
+   "Year": "2020",
+   "FoodValue": 10556.9,
+   "Num": 41483
+ },
+ {
+   "Country": "France",
+   "RowNum": 21,
+   "Year": "2017",
+   "FoodValue": 7063.2,
+   "Num": 4782
+ },
+ {
+   "Country": "France",
+   "RowNum": 22,
+   "Year": "2018",
+   "FoodValue": 7966.4,
+   "Num": 4276
+ },
+ {
+   "Country": "France",
+   "RowNum": 23,
+   "Year": "2019",
+   "FoodValue": 8335.5,
+   "Num": 4787
+ },
+ {
+   "Country": "France",
+   "RowNum": 24,
+   "Year": "2020",
+   "FoodValue": 7245.2,
+   "Num": 4053
+ },
+ {
+   "Country": "India",
+   "RowNum": 25,
+   "Year": "2017",
+   "FoodValue": 7519.5,
+   "Num": 60394
+ },
+ {
+   "Country": "India",
+   "RowNum": 26,
+   "Year": "2018",
+   "FoodValue": 7620.3,
+   "Num": 59821
+ },
+ {
+   "Country": "India",
+   "RowNum": 27,
+   "Year": "2019",
+   "FoodValue": 8243.3,
+   "Num": 54495
+ },
+ {
+   "Country": "India",
+   "RowNum": 28,
+   "Year": "2020",
+   "FoodValue": 7920.1,
+   "Num": 46363
+ },
+ {
+   "Country": "Philippines",
+   "RowNum": 29,
+   "Year": "2017",
+   "FoodValue": 47378.8,
+   "Num": 49147
+ },
+ {
+   "Country": "Philippines",
+   "RowNum": 30,
+   "Year": "2018",
+   "FoodValue": 47210.4,
+   "Num": 47258
+ },
+ {
+   "Country": "Philippines",
+   "RowNum": 31,
+   "Year": "2019",
+   "FoodValue": 46838.9,
+   "Num": 45920
+ },
+ {
+   "Country": "Philippines",
+   "RowNum": 32,
+   "Year": "2020",
+   "FoodValue": 46900,
+   "Num": 25491
+ },
+ {
+   "Country": "Dominican Republic",
+   "RowNum": 33,
+   "Year": "2017",
+   "FoodValue": 156.5,
+   "Num": 58520
+ },
+ {
+   "Country": "Dominican Republic",
+   "RowNum": 34,
+   "Year": "2018",
+   "FoodValue": 164,
+   "Num": 57413
+ },
+ {
+   "Country": "Dominican Republic",
+   "RowNum": 35,
+   "Year": "2019",
+   "FoodValue": 176.9,
+   "Num": 49911
+ },
+ {
+   "Country": "Dominican Republic",
+   "RowNum": 36,
+   "Year": "2020",
+   "FoodValue": 188.9,
+   "Num": 30005
+ }
+]
