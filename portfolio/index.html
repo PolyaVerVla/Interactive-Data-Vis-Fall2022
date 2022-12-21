@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h3>● Outline the major design decisions you made for your visuals, explain how you got there and why you picked them.
+    </h3>
+    <p>To understand how to visualize the analysis, I need to understand why I actually want this analysis. How will visualizations help me to share my main thoughts?
+      I think that it is always much better to make a visualization simple, but understandable. People need to understand what exactly they want to say.
+      The most important components that should be most clear to whoever is watching are 1) the logic of the analysis itself and 2) the meaning of the entire analysis.
+      As I said previously, ideally, the smaller the visualizations themselves, the better. So I need to see if I can combine all the parameters in one visualization or not. For example, the most successful variant of combining trends was in my scatter plot, where I was able to combine 5 parameters in one, namely the industrial emission index, forest coverage, the health risk index, population density and the names of the states.
+      In my final project, it was necessary to show exactly the changes over time, and a time series and other dependencies over time were needed. I wanted to show my logic, where I showed trends related to migration and trade, and then combine these two parameters and show their dependence.
+      Now I have to ask myself, what do I need to determine the meaning of this analysis. In my case, this is to show whether there is a relationship between the number of migrants and the food import into the US. But on top of that, my “story” should be pretty clear to those who will see my visualizations. 
+      I couldn't show all the countries that exist, which means that I needed to 1) identify the countries with the highest rates, both in terms of the number of migrants and the volume of imports, 2) display the dependence of these two indicators in one figure, and 3) make it obvious and easy to read.
+      At first I thought I would choose area charts, but it happened that the areas overlapped with each other and it was very hard to see the trends for each of the countries. Instead, I decided to use a line chart, which is the simplest visualization, but again, I want to emphasize that in my understanding, the presentation of information is important in the first place. Moreover, after visualizations of imports and the number of migrants from 2017 to 2020, I began to think about how to show the correlation of these indicators. In other words, I had to clearly demonstrate the relationship of imports and migration over time. So first, I put the number of migrants and the volume of imports along the X and Y coordinate axes. We know that these ratios change over time, in our case every year, so we need to show this parameter as well. If we leave all the years on the Scatterplot, this image will be similar to the contours of the previous linear time dependencies, but it will not be clear which year this or that object on the chart will refer to (in our case, the object is a circle ). So in our case, it is much more important to look at the correlation by country, and not by year. So I decided to make time as a secondary parameter and move it to the background by creating a dropdown function, and mark each country with a different color so that each individual color is associated with one country. In the dropdown, I left the “All’ option in order to see the trajectory of changes by country.
+         
+    </p>
+    <h3>● What was the most helpful thing you learned from your project? From your tutorials?
+    </h3>
+    <p>Everything was new to me, while I was doing the project and tutorials. I learned more or less how to make dynamic visualizations, as I began to understand the logic of the code itself.  I was struggling with the logic of how to turn the code from non-dynamic to dynamic.
+      Another thing that I found out for myself is that the background color on which the visualizations will be built is very important, since the color scheme of the graphs depends on it, as well as the style and presentation of the “story”.
+         </p>
+    <h3>● How did the critiques affect your project and how do you think about it?</h3>
+    <p>Criticism helped me to realize that in order to make my visualizations clearer, I have to use different colors in each chart. Also, the critiques helped me to understand the expectations of the audience, and after consultations I was also guided by the request, not only by my motivation.
+      In addition, the design of not only data, but also their designations, such as legends, is also of great importance. In each type of visualization, I have different types of legend labels. I think they helped me a lot to make my visualization easier to understand and more interactive.
+      
+    </p>
+    <h3>● How did your final project differ from the prospectus you outlined?
+    </h3>
+    <p>My project is not very different from what was in the prospectus. The only things are that I removed one visualization, due to its uselessness, and instead of making charts with areas, I switched to line charts, because many lines intersected with each other in different places, and it made the visualization with areas very difficult and incomprehensible to readers. I also applied different color schemes in different visualizations, as I wrote about earlier.
+ 
+    </p>
+    <h3>● What were your major challenges? How would you mitigate them with your next project?
+    </h3>
+    <p>The hardest part was understanding the code logic for functions like dropdown and tooltip, particularly how to use int() and draw() functions and their order in the code between different types of objects. It was hard to figure out where to put these functions. Also, it took me time to see how to rewrite codes from non-dynamic to dynamic codes. So far it's still not easy for me to sense the logic of exactly how to ultimately select from properties in the console option while I inspect the page.
+      In my further projects I will inspect my page more often than before, since I didn't really know how to check all of my objects on the page using this tool. Also, I will pay more attention to the background color at the beginning before using different color scales on my visualizations.
+        
+    </p>
+    <h3>● If you had more time and resources, what would you add/remove/change about your project?
+    </h3>
+    <p>I would also add bar charts with the types of products imported to the US, and I would show the change over time using a dropdown which would also include different years. In addition, I would also add a tooltip function to the scatterplot, which would display the value for only that object which was hovered over.
+      I would also include a function in line charts, in which, when hovering the mouse over the line itself, the value at its different points would be displayed, plus a dropdown on top of it, which would have the following options: “6 countries with the highest imports”, “6 countries with the largest number of migrants”, “Imports of the 6 countries with the highest number of migrants” and “Migration from the 6 countries with the highest number of imports”.
+        
+    </p>
+<!-- <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="data/Picture.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
+    <div class="row">
+  <!-- <div class="col"> -->
+  <div class="card text-bg-secondary mb-3" style="max-width: 22rem; left: 27%;">
+    <div class="card-header">Quantities and Amounts</div>
+    <a href="https://polyavervla.github.io/Interactive-Data-Vis-Fall2022/2_1_quantities_and_amounts/index.html" class="card-body">
+      <h5 class="card-title">Top 10 most famous mountains in the world</h5>
+      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+    </a>
+    <!-- <h5 class="card-title">Top 10 most famous mountains in the world</h5> -->
+    </div>
+  <!-- </div> -->
+<!-- </div> -->
+<!-- <div class="col"> -->
+  <div class="card text-bg-danger mb-3" style="max-width: 22rem;  left: 29%;">
+    <div class="card-header">Button</div>
+    <a href="https://polyavervla.github.io/Interactive-Data-Vis-Fall2022/1_3_intro_to_js/index.html" class="card-body">
+      <h5 class="card-title">Counting the number of times a user has clicked a button</h5>
+      <!-- <p class="card-text">Counting the number of times a user has clicked a button</p> -->
+    </a>
+    <!-- <h5 class="card-title">Counting the number of times a user has clicked a button</h5> -->
+    </div>
+  </div>
+<!-- </div> -->
+   <div class="row">
+  <div class="card text-bg-success mb-3" style="max-width: 22rem;  left: 27%;">
+    <div class="card-header">Interactive Map</div>
+    <a href="https://polyavervla.github.io/Interactive-Data-Vis-Fall2022/2_4_geographic/index.html" class="card-body">
+      <h5 class="card-title">Extreme Heat Changes by State</h5>
+      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+    </a>
+    </div>
+  <!-- </div> -->
+  <div class="card  text-bg-warning mb-3" style="max-width: 22rem; left: 29%;">
+    <div class="card-header">Interactive Scatterplot</div>
+    <a href="https://polyavervla.github.io/Interactive-Data-Vis-Fall2022/3_2_distributions/index.html" class="card-body">
+      <h5 class="card-title">Correlation between Percent of Forest Cover and Industrial Toxins by State, Health Risk Index and Population Density</h5>
+      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+    </a>
+    </div>
+  </div>
+<!-- </div> -->
+  <!-- <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body">
+      <h5 class="card-title">Warning card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body">
+      <h5 class="card-title">Info card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div> -->
+  <div class="row">
+  <!-- <div class="card text-bg-light mb-3" style="max-width: 18rem;"> -->
+    <div class="card text-bg-primary mb-3" style="max-width: 22rem; left: 40%">
+
+    <div class="card-header">My Project</div>
+    <a href="https://polyavervla.github.io/Interactive-Data-Vis-Fall2022/final_project/" class="card-body">
+      <h5 class="card-title">U.S. Food Imports and U.S. Immigration</h5>
+      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+    </a>
+    </div>
+  </div>
+</div>
+  <!-- <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+    <div class="card-header">Header</div>
+    <a href="https://www.msn.com/?ocid=wispr&pc=u477" class="card-body">
+      <h5 class="card-title">Dark card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </a>
+    </div>
+  </div>
+
+  <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+    <div class="card-header">Header</div>
+    <a href="https://www.msn.com/?ocid=wispr&pc=u477" class="card-body">
+      <h5 class="card-title">Dark card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </a>
+    </div> -->
+  </div>
+</div>
+    </div>
+  </body>

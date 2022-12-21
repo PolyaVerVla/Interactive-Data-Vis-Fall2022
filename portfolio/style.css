@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(66, 50, 74);
+    /* font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    padding: 1em; */
+    
+    
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 16px;
+        padding: 1em;
+      }
+      
+      h1 {
+        font-size: 3em;
+        margin: 0.25em 0;
+      }
+      
+      h3 {
+        font-size: 2em;
+        color: fuchsia;
+        margin: 0.25em 0;
+        text-align: center;
+        font-family: 'georgia';
+        font-size: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+      
+      }
+      
+      p {
+      
+        /* font-family: "Trebuchet MS", Verdana, sans-serif; */
+         /* font-family: "Aboreto"; */
+       
+        font-size: 1.5em;
+        text-align: justify;
+        line-height: 1.6;
+        margin:1em 5em;
+      
+        font-family: 'georgia';
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        background-color: rgb(207, 137, 241);
+        /* line-height: 27px; */
+       
+      }
+      
+      .fill-color {
+        fill: red;
+        width: 3px;
+        /* stroke: url(colorScale); */
+        range: var(colorScale);
+        /* stroke: green; */
+      }
+      
+      .x label {
+        font-weight : bolder
+      }
+      
+      /* import 
+      {Legend, Swatches} from "@d3/color-legend" */
+  
