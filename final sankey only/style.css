@@ -1,0 +1,178 @@
+body {
+  /* ref: https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro */
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 1em 3em;
+  background-color: #daf1f3;
+  /* display: grid;
+  grid-template-columns: 30% auto;
+  grid-template-rows: 60px auto auto 60px;
+  grid-template-areas: "hd hd"
+                       "sidetext map"
+                       "sankey sankey"
+                       "text text"; */
+  /* margin: 0;
+  padding: 0;
+  height: 3000px;
+  */
+
+}
+/* 
+.dashboard {
+  display: flex;
+  /* grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr, 1fr;
+  column-gap: 2em; */
+  /* flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: auto; */
+/* } */ */
+
+/* #table {
+  grid-row-start: 1;
+  grid-row-end: span 2;
+}
+
+#barchart, #count {
+  padding-top: 1em;
+}
+/* 
+/* Table styles */
+/* thead,
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-bottom: 1px solid white;
+} */
+/* 
+tbody {
+  width: 100%;
+  display: block;
+  height: 70vh;
+  overflow: scroll;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5em;
+  cursor: pointer;
+  font-weight: lighter;
+  text-transform: capitalize;
+}
+
+tr:hover {
+  font-weight: 900;
+}
+
+/* Count styles */
+/* #count {
+  display: flex;
+  flex-direction: row;
+}
+
+.metric {
+  flex-grow: 1;
+  text-align: center;
+} */ 
+
+/* .metric > .number {
+  color: #ccc;
+  font-size: 25px;
+}  */
+
+
+/* body {
+  margin: 10;
+  padding: 10;
+  height: 100;
+} */
+
+h2,
+h3 {
+  margin: 10px;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  margin: 10px;
+}
+/* * Create a position for the map
+* on the page */ */
+#map {
+  position: absolute;
+  top: 10;
+  bottom: 10%;
+  height: 90% ;
+  width: 100%;
+}
+
+/**
+* Set rules for how the map overlays
+* (information box and legend) will be displayed
+* on the page. */
+.map-overlay {
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+  background: #fff;
+  margin-right: 30px;
+  font-family: Arial, sans-serif;
+  overflow: auto;
+  border-radius: 3px;
+}
+
+#features {
+  top: 10;
+  height: 200px;
+  margin-top: 20px;
+  width: 450px;
+}
+
+#legend {
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  line-height: 18px;
+  height: 150px;
+  margin-bottom: 40px;
+  width: 100px;
+}
+
+.legend-key {
+  display: inline-block;
+  border-radius: 20%;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+#sankey-container {
+
+  background-color: rgb(226, 100, 38);
+  /* position: fixed; */
+  /* bottom: 10; */
+  top: 700px;
+  width: 70%;
+  height: 600px;
+
+  /* float: none; */
+  /* margin: auto; */
+
+
+ }   
+ 
+ #myDiv {
+
+  position: absolute; 
+  bottom: 0px;  
+  width: 100%; 
+  height: 100%; 
+  margin-right: 100px;
+  float: right;
+/* position: relative; */
+ }
