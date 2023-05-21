@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Traditional Beliefs among Indigenous​ Peoples in Eastern ​Siberia and Far East in Russia​</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #dae5ef;
+}
+
+/* Style the header */
+header {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 45px;
+  color: black;
+  
+ 
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 100%;
+  height: 700px;/* only for demonstration, should be removed */
+  background: #dae5ef;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  /* float: left; */
+  padding: 20px;
+  width: 100%;
+  background-color: #0068ff;
+  /* text-align: center; */
+  color: white;
+   /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  /* text-align: center; */
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- <h2>CSS Layout Float</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p> -->
+
+<header>
+  <h2>Traditional Beliefs among Indigenous​ Peoples in Eastern ​ Siberia and Far East in Russia​​</h2>
+</header>
+
+
+
+<section>
+  <nav>
+
+    <div  id="map-container">
+        <!-- <div id="map-container"> -->
+          <div id="map"></div>
+          <div class='map-overlay' id='features'><p>Percentage of Population with Traditional Beliefs</p><div id='pd'><p>Hover over a federal subject!</p></div></div>
+    <div class='map-overlay1' id='legend'></div> 
+   
+  </nav>
+  
+  <!-- <article>
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article> -->
+</section>
+
+<article>
+    <h1>Some Information :</h1>
+    <ul>
+    <a>Over 1.5 million in Russia are Indigenous Siberians​</a>
+</ul>
+<ul>
+    <a>Over 40 ethnic groups (19 of them dominantly adhere to traditional beliefs) ​​</a>
+</ul>
+<ul>
+    <a>Ten language groups (4 of them are isolates)​​</a>
+</ul>
+    <!-- <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  <p>Footer
+   <ul>
+      <li><a href="#">London</a></li>
+      
+    </ul>
+  </p> -->
+</article>
+
+<footer>
+    <!-- <h1>London</h1> -->
+    <p>There are two groups, Ainu and Kamchadals, which are still not recognized as indigenous groups today. Ainu mostly live in Japan (mainly on Hokkaido Island), however there are some groups in Russia, in Sakhalin Oblast. Kamchadals are an ethnic group that resulted from the international marriages between Russian settlers and local indigenous peoples in the region of Kamchatka Krai.</p>
+    <p>Four isolate language groups included in these indigenous populations are in a danger of extinction: Ainu, Yeniseian, Nivkh and Yukaghir. Some scholars consider Yukaghir as related to the Uralic language family. <a href="https://www.sgr.fi/yukaghir/start1.html">[1]</a></p>
+   <p>The original religions of the Indigenous groups in Siberia were traditional beliefs, mainly Tengrism, Shamanism, and Animism. Notably, there are more women among shamans further from urban areas in Siberia. Some scholars believe that in urban areas shamanism might be more influenced by the nearby cultures, making those traditional beliefs more patriarchal.  <a href=" https://www.vice.com/en/article/jpy7ad/capturing-the-treasured-wisdom-of-female-shamans-in-russia">[2]</a></p>
+    <p>However due to Chinese, Central Asian, and Russian influence, nowadays other religions are also widely spread in the region, especially in urbanized areas in the southern part of Siberia - for instance, Buddhism for Buryats and Tuvans, Islam among Siberian Tatars, and Orthodox Christianity among the rest.</p>
+    <!-- <p>Footer
+   <ul>
+      <li><a href="#">London</a></li>
+      
+    </ul>
+  </p> -->
+
+</footer>
+
+
+
+<div class="card">
+    <!-- <div class="card-header">
+      Featured
+    </div> -->
+    <div class="card-body">
+      <h5 class="card-title">To see the relationships among language groups, ethnic groups and federal subjects <a href="https://polyavervla.github.io/Interactive-Data-Vis-Fall2022/final%20sankey%20only/index.html" class="btn btn-primary btn-lg ">Go here</a>​</h5>
+      <p class="card-text"><i>Sources: Russian Census 2010, 2021 & The Independent Research Service SREDA </i></p>
+     
+    </div>
+  </div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src='https://cdn.plot.ly/plotly-2.20.0.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- this is the line that loads in the main js script -->
+<script type="module" src="./main.js"></script>
+
+</body>
+</html>
