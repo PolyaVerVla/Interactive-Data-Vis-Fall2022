@@ -55,7 +55,7 @@ console.log('hallo')
    data = [data]
   
   var layout = {
-    title: "Distribution of language groups, ethnic groups and traditional beliefs",
+    title: "Distribution of language groups, ethnic groups and federal subjects",
     width: 1118,
     height: 772,
     font: {
