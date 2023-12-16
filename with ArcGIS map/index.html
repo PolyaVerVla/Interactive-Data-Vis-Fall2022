@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>USA Hiking</title>
+  
+</head>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/mexico.jpg" class="d-block w-100" alt="sad1">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>“The world is a book and those who do not travel read only one page.”
+                ― St. Augustine</h2>
+             </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/spin.jpg" class="d-block w-100" alt="sad2">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>“The journey of a thousand miles begins with a single step.”
+                ― Lao Tzu</h2>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/oad.jpg" class="d-block w-100" alt="sad3">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>“Travel far enough, you meet yourself.”
+                ― David Mitchell, Cloud Atlas</h2>
+                          </div>
+          </div>
+           </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+     
+
+
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    
+    <body>
+
+          
+
+      <div class="card float-end" style="width: 40rem;object-position: 10px;">
+        <img src="assets/map.JPG" class="card-img-top" alt="map11">
+        <div class="card-body">
+          <h5 class="card-title">Interactive map of the Parks of the United States</h5>
+                   <a href="https://poxiullfrxfthchv.maps.arcgis.com/apps/Embed/index.html?webmap=9f89056ddfb64bf8b665e387defa5abf&extent=-74.8097,40.4275,-73.1975,41.0518&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legend=true&disable_scroll=true&theme=dark" class="btn btn-success btn-lg">Open</a>
+        </div>
+      </div>
+
+     
+        <div id="main-container">
+            <div class="centered" >
+                                <div id="loading">
+                                  
+                                
+                    <h3 id="loading-msg">Looking for results...</h3>
+                    <img id="spinner-icon" src="spinner.png">
+                    </div>
+                    <input type="text" id="user-input" placeholder="Where would you go?" />
+                <button type="button" id="submit-button" class="btn btn-success btn-lg"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tree" viewBox="0 0 16 16">
+                  <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5zM6.437 4.758A.5.5 0 0 0 6 4.5h-.066L8 1.401 10.066 4.5H10a.5.5 0 0 0-.424.765L11.598 8.5H11.5a.5.5 0 0 0-.447.724L12.69 12.5H3.309l1.638-3.276A.5.5 0 0 0 4.5 8.5h-.098l2.022-3.235a.5.5 0 0 0 .013-.507z"/>
+                </svg></button>
+            </div>
+
+            <div class = "badge bg-success disabled text-wrap"
+
+            id="select-me" ></div>
+    
+        </div>
+        
+    </body>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <script src="scripts/main.js"></script>
+    
+    </html>
+     
+
+     
+
+
+
+
+  <!--script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-ECSbUQz3sWZY4alub3AnlUZ6QGGMoqw&callback=initMap"></script>
+JavaScript Bundle with Popper -->
+   <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    ////// integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+///// <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
